@@ -1,0 +1,31 @@
+.home-block-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* overflow: clip; */
+}
+
+.home-block-wrapper > header {
+  background-color: #333;
+  /* height: 50px; */
+  width: 100%;
+  z-index: 5;
+  opacity: 0.75;
+  position: fixed;
+  top: 0;
+
+}
+
+.home-block-wrapper > main {
+  background-color: #fff;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #555;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

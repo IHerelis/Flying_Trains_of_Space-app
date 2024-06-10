@@ -1,0 +1,109 @@
+.home-main__wrapper {
+  
+}
+
+.main__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding-inline: 20px;
+  z-index: 3;
+}
+
+.home-titular {
+  background: url("../../images/cosmos-train-home_1280.jpg") center / 100% 100% no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  gap: 50px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.home-titular::after {
+  background: #0c3632;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.72;
+  height: 100%;
+  width: 100%;
+}
+
+.titular-title {
+  z-index: 3;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 5px;
+  padding-top: 100px;
+}
+
+
+/* home-presentation ============================= */
+
+.home-presentation {
+  min-height: 450px;
+  background-color: #1F2327;
+}
+
+.presentation-trains {
+  padding-block: 40px;
+  display: flex;
+  gap: 50px;
+}
+
+.presentation-trains__item {
+  color: white;
+}
+
+.presentation-trains__item h2 {
+  font-size: 20px;
+  text-indent: 16px;
+}
+
+.presentation-trains__slider {
+  max-width: 40%;
+  border: 3px solid brown;
+  border-radius: 10px;
+  overflow: hidden;
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+
+.trains__slider__img {
+  min-height: 250px;
+  color: #fff;
+  background: #364d79;
+  aspect-ratio: 2/1;
+}
+.trains__slider__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.home-galaxy {
+  background: url("../../images/pexels-francesco-ungaro-998641.jpg") center / 100% 100% no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* .home-galaxy::after {
+  background: #333;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+} */
