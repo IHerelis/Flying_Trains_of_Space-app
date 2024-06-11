@@ -12,7 +12,7 @@ import trainFoto5 from '../../images/Gare_de_Paris-Gare-de-Lyon_-_2018-05-15_-_I
 const SectionPresentation = () => {
 
   return (
-    <div className='home-presentation'>
+    <section className='home-presentation'>
       <div className='main__container'>
         <div className='presentation-trains'>
           <div className='presentation-trains__item'>
@@ -53,7 +53,7 @@ const SectionPresentation = () => {
         </div>
       </div>
       
-    </div>
+    </section>
   );
 }
 

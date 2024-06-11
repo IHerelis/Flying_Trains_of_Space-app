@@ -2,6 +2,7 @@ import React from 'react';
 import './HomeMain.css';
 import SectionTitular from './sectionTitular';
 import SectionPresentation from './sectionPresentation';
+import SectionGalaxy from './sectionGalaxy';
 
 const HomeMain = () => {
 
@@ -11,11 +12,9 @@ const HomeMain = () => {
       <SectionTitular />
     
       <SectionPresentation />
-      
-      <section className='home-galaxy'>
 
-      </section>
-      
+      <SectionGalaxy />
+
     </div>
   );
 }

@@ -1,6 +1,6 @@
-.home-main__wrapper {
+/* .home-main__wrapper {
   
-}
+} */
 
 .main__container {
   max-width: 1240px;
@@ -88,7 +88,7 @@
 
 
 
-
+/* home-galaxy =============================== */
 
 .home-galaxy {
   background: url("../../images/pexels-francesco-ungaro-998641.jpg") center / 100% 100% no-repeat;
@@ -107,3 +107,74 @@
   height: 100%;
   width: 100%;
 } */
+
+
+.galaxy-fotos {
+  padding-block: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.galaxy-fotos-items {
+  color: white;
+  text-align: center;
+  flex: 0 1 60%; 
+}
+
+.galaxy-fotos-items h2 {
+  font-size: 24px;
+
+}
+
+.galaxy-fotos-board {
+  flex: 0 1 40%;
+}
+
+.galaxy-cart {
+  max-width: 350px;
+  border: 2.5px solid grey;
+  box-shadow: 0px 0px 3px 2px green;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.galaxy-cart__foto {
+  padding: 5px;
+}
+
+.galaxy-cart__foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.galaxy-cart__body {
+  padding: 10px;
+  
+}
+
+.galaxy-cart__body h3 {
+  font-weight: 500;
+
+}
+
+.galaxy-cart__body p {
+  font-size: 14px;
+
+}
+
+.cart__body__lowland {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 5px 10px;
+}
+
+.cart__body__lowland button {
+  padding: 2px 5px;
+  background-color: dodgerblue;
+  border-radius: 3px;
+}
