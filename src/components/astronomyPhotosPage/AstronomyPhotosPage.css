@@ -1,0 +1,75 @@
+.astronomy-photos-wrapper {
+  background-color: goldenrod;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+
+.astronomy-photos--block {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  grid-template-areas: 
+    "board managenent"
+  ;
+  padding-bottom: 20px;
+}
+
+.astronomy-photos__board {
+  grid-area: board;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-radius: 5px;
+  padding-inline: 20px;
+}
+
+.photos__board__cart {
+  flex: 0 1 260px;
+}
+
+.astronomy-photos__management { 
+  grid-area: managenent;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.clean__board__btn {
+  min-width: 220px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: red;
+  box-shadow: 0px 2px 3px 2px grey;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.clean__board__btn:hover { 
+  background-color: rgb(204, 6, 6);
+  box-shadow: 0px 0px 3px 2px grey;
+}
+
+
+
+
+@media (max-width: 998px) {
+  .astronomy-photos--block {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "managenent"
+    "board"
+    ;
+  }
+
+  /* .astronomy-photos__management { 
+    flex-direction: row;
+    justify-content: center;
+  } */
+}

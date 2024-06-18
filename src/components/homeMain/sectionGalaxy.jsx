@@ -1,41 +1,34 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import WatchMoreButton from '../othersComponents/WatchMoreButton';
+import AstronomyPictureCart from '../astronomyPhotosPage/AstronomyPictureCart';
 
 
 const SectionGalaxy = () => {
   
-  const {dataPresent: galaxyFoto} = useSelector(state => state.galaxyFotos);
-  console.log("SectionGalaxy",galaxyFoto);
+  const {dataPresent: galaxyPhoto} = useSelector(state => state.galaxyPhotos);
+  console.log("SectionGalaxy",galaxyPhoto);
 
   return (
     <section className='home-galaxy'>
       <div className='main__container'>
-        <div className='galaxy-fotos'>
-          <div className='galaxy-fotos-items'>
+        <div className='galaxy-photos'>
+          <div className='galaxy-photos-items'>
             <h2>
               Завдяки роботі науковців NASA, які діляться з нами отриманими з космосу матеріалами. Ми маємо змогу насолоджуватись безмежно прекрасними краєвидами всесвіту!
             </h2>
+            <div className='galaxy-photos__btn'>
+              <WatchMoreButton link='/astronomyPhotos' />
+            </div>
           </div>
-          <div className='galaxy-fotos-board'>
-            {
-              galaxyFoto.map((item) => (
-                <div key={item.title} className='galaxy-cart'>
-                  <div className='galaxy-cart__foto'>
-                    <img src={item.url} alt='foto of the day' />
-                  </div>
-                  <div className='galaxy-cart__body'>
-                    <h3>{item.title}</h3>
-                    <p>
-                      {item.explanation.slice(0, 90)}...
-                    </p>
-                  </div>
-                  <div className='cart__body__lowland'>
-                    <button>More</button>
-                    <div>{item.date}</div>
-                  </div>
-                </div>
+          <div className='galaxy-photos-board'>
+            { galaxyPhoto.length && <AstronomyPictureCart item={galaxyPhoto[0]} /> }
+            {/* {
+              galaxyPhoto.map((item) => (
+                <AstronomyPictureCart item={item} key={0} />
               ))
-            }
+            } */}
           </div>
         </div>
         

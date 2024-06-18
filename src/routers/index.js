@@ -4,6 +4,7 @@ import HomeMain from "../components/homeMain/HomeMain";
 import TrainsPage from "../components/trainsPage/TrainsPage";
 import SpacePage from "../components/spacePage/SpacePage";
 import GamesPage from "../components/gamesAndEntertainment/GamesPage";
+import AstronomyPhotosPage from "../components/astronomyPhotosPage/AstronomyPhotosPage";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: '/entertainment',
         element: <GamesPage />,
+      },
+      {
+        path: '/astronomyPhotos',
+        element: <AstronomyPhotosPage />,
       },
     ]
   },

@@ -4,14 +4,14 @@ import './HomeBlock.css';
 import { Outlet } from 'react-router-dom';
 import HomeHeader from '../homeHeader/HomeHeader';
 import { useDispatch } from 'react-redux';
-import { oneGalaxyFoto } from '../../thunks/galaxyFotosThunks';
+import { oneGalaxyPhoto } from '../../thunks/galaxyPhotosThunks';
 
 const HomeBlock = () => {
 
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(oneGalaxyFoto());
+    dispatch(oneGalaxyPhoto());
   }, []);
 
 

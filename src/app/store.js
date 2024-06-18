@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import GalaxyFotosReducer from '../slices/galaxyFotosSlice';
+import GalaxyPhotosReducer from '../slices/galaxyPhotosSlice';
 
 
 export const store = configureStore({
   reducer: {
-    galaxyFotos: GalaxyFotosReducer,
+    galaxyPhotos: GalaxyPhotosReducer,
   }
 });

@@ -1,0 +1,16 @@
+.watch-more-btn {
+  background-color: red;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+.watch-more-btn:hover {
+  background-color: rgb(211, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 2px grey;
+}
+
+.watch-more-btn h3 {
+  padding: 5px 15px;
+}

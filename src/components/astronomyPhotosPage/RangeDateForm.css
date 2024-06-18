@@ -1,0 +1,55 @@
+.range-form__container {
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: rgb(10, 233, 233);
+  box-shadow: 0px 2px 3px 2px grey;
+}
+
+.range-form__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form__body__place {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__body__place label {
+  color: rgb(1, 87, 1);
+}
+
+.form__body__place input {
+  outline: none;
+  padding: 1px 2px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.form__body__submit {
+  text-align: center;
+}
+
+.form__body__submit button {
+  width: 50%;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(3, 161, 3);
+  box-shadow: 0px 2px 3px 2px rgb(170, 170, 170);
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.form__body__submit button:hover {
+  background-color: rgb(4, 135, 4);
+  box-shadow: 0px 1px 3px 2px rgb(170, 170, 170);
+}
+
+.range-form-error {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+}
