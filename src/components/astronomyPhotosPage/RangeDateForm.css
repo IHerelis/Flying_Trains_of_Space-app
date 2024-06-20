@@ -1,7 +1,8 @@
 .range-form__container {
   padding: 15px 10px;
   border-radius: 10px;
-  background-color: rgb(10, 233, 233);
+  background: rgb(0,212,255);
+  background: linear-gradient(9deg, rgba(0,212,255,1) 0%, rgba(82,8,241,0.9136029411764706) 69%, rgba(2,0,36,1) 100%);
   box-shadow: 0px 2px 3px 2px grey;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .form__body__place label {
-  color: rgb(1, 87, 1);
+  color: white;
 }
 
 .form__body__place input {
@@ -51,5 +52,5 @@
 .range-form-error {
   font-size: 14px;
   font-weight: 500;
-  color: red;
+  color: yellow;
 }

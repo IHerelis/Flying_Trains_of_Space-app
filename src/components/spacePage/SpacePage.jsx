@@ -1,12 +1,13 @@
 import React from 'react';
 import './SpacePage.css';
+import { Outlet } from 'react-router-dom';
 
 
 const SpacePage = () => {
 
   return (
     <div className='space-page-wrapper'>
-      <h1>Space Page</h1>
+      <Outlet />
     </div>
   );
 }
