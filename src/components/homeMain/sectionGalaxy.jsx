@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import WatchMoreButton from '../othersComponents/WatchMoreButton';
 import AstronomyPictureCart from '../astronomyPhotosPage/AstronomyPictureCart';
 
@@ -18,6 +17,9 @@ const SectionGalaxy = () => {
             <h2>
               Завдяки роботі науковців NASA, які діляться з нами отриманими з космосу матеріалами. Ми маємо змогу насолоджуватись безмежно прекрасними краєвидами всесвіту!
             </h2>
+            <p>
+              Image of the universe today!
+            </p>
             <div className='galaxy-photos__btn'>
               <WatchMoreButton link='/astronomyPhotos' />
             </div>
