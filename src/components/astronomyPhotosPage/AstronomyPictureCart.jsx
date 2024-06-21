@@ -6,8 +6,9 @@ const AstronomyPictureCart = ({item}) => {
   // const mediaType = item.media_type;
   const mediaType = useRef(item.media_type);
   const image = <img src={item.url} alt='photo of the day' />;
-  const video = <iframe src={item.url} title="YouTube video player"></iframe>
-  // const video = <iframe width="560" height="315" src={item.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  const video = <iframe src={item.url} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+  
+  // const video = <iframe width="560" height="315" src={item.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   // console.log(mediaType);
   

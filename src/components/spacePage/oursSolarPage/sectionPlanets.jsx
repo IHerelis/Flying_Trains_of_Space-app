@@ -18,20 +18,27 @@ const SectionPlanets = () => {
   return (
     <section className='ours-planets'>
       <div className='main__container'>
+        <div className='ours-planets__title'>
+          <h2>
+            Сонячна система.
+          </h2>
+        </div>
         <div className='planet-board star-sun'>
           <div className='planet-board__image'>
             <img src={ourSunImage} alt='star' />
           </div>
           <div className='planet-board__items'>
-            <h3>Lorem, ipsum dolor.</h3>
+            <h3>Сонце ( Sun )</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+              Сонце — це жовтий карлик, головна зірка нашої системи, навколо якої обертаються всі інші об'єкти. Воно становить понад 99% маси всієї Сонячної системи.
             </p>
           </div>
         </div>
-        <h2>
-          Група внутрішніх планет :
-        </h2>
+        <div className='ours-planets__subtitle'>
+          <h2>
+            Група внутрішніх планет :
+          </h2>
+        </div>
         <div className='planet-block'>
           <div className='planet-board planet'>
             <div className='planet-board__image'>
@@ -40,7 +47,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Меркурій ( Mercury )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Найближча до Сонця і найменша планета. Не має атмосфери і великих супутників.
               </p>
             </div>
           </div>
@@ -51,7 +58,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Венера ( Venus )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Друга планета від Сонця, має густу атмосферу, яка складається переважно з вуглекислого газу, і найспекотніша планета нашої сонячної системи.
               </p>
             </div>
           </div>
@@ -62,7 +69,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Зелмя ( Earth )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Третя планета від Сонця, єдина відома планета, на якій існує життя. Має один супутник — Місяць.
               </p>
             </div>
           </div>
@@ -73,14 +80,16 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Марс ( Mars )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Планета відома своїм червоним кольором через велику кількість оксиду заліза на поверхні. Має два невеликих супутники — Фобос і Деймос.
               </p>
             </div>
           </div>
         </div>
-        <h2>
-          Група зовнішніх планет :
-        </h2>
+        <div className='ours-planets__subtitle'>
+          <h2>
+            Група зовнішніх планет :
+          </h2>
+        </div>
         <div className='planet-block'>
           <div className='planet-board planet'>
             <div className='planet-board__image'>
@@ -89,7 +98,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Юпітер ( Jupiter )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Найбільша планета Сонячної системи, п'ята від Сонця. Має більше 79 супутників, найбільші з яких — Ганімед, Каллісто, Іо та Європа.
               </p>
             </div>
           </div>
@@ -100,7 +109,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Сатурн ( Saturn )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Шоста планета, відома своїми яскравими кільцями. Має більше 82 супутників, найбільший з яких — Титан.
               </p>
             </div>
           </div>
@@ -111,7 +120,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Уран ( Uranus )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Сьома планета від сонця, має унікальний нахил осі обертання. Має кільця і 27 відомих супутників.
               </p>
             </div>
           </div>
@@ -122,7 +131,7 @@ const SectionPlanets = () => {
             <div className='planet-board__items'>
               <h3>Нептун ( Neptune )</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia, eius ad assumenda reprehenderit labore.
+                Найдальша від Сонця планета. Має 14 відомих супутників, найбільший з яких — Тритон.
               </p>
             </div>
           </div>

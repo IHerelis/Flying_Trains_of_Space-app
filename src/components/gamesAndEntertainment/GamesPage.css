@@ -1,10 +1,19 @@
-.games-page-wrapper {
-  
+/* .games-page-wrapper {
+ 
+} */
+
+.games-page__header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("imagesGamesPage/earth-1756274_1920.jpg") center/cover no-repeat;
+  position: relative;
 }
 
-.games-page-wrapper h1 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 100px;
-  text-align: center;
+.obj-Hero {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: url("imagesGamesPage/free-icon-rocket-ship-2949146.png") center/cover no-repeat;
+  position: absolute;
+  /* z-index: 5; */
 }
