@@ -6,7 +6,7 @@ const TrainsPage = () => {
 
   return (
     <div className='trains-page-wrapper'>
-      <h1>Trains Page</h1>
+      
     </div>
   );
 }

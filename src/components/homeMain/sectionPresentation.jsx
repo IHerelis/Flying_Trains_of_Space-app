@@ -2,14 +2,17 @@ import React from 'react';
 import SliderPresentations from '../othersComponents/SliderPresentations';
 
 
-import trainFoto1 from '../../images/Blenkinsops_rack_locomotive,_1812_(British_Railway_Locomotives_1803-1853).jpg';
-import trainFoto2 from '../../images/TrevithicksEngine.jpg';
-import trainFoto3 from '../../images/Locomotion_No._1..jpg';
-import trainFoto4 from '../../images/Shinkansen_type_0_Hikari_19890506a.jpg';
-import trainFoto5 from '../../images/Gare_de_Paris-Gare-de-Lyon_-_2018-05-15_-_IMG_7493.jpg';
+import trainFoto1 from '../../images/TrevithicksEngine.jpg';
+import trainFoto2 from '../../images/Locomotion_No._1..jpg';
+import trainFoto3 from '../../images/train_class-A4s-Num_4468_Mallard_in_York.jpg';
+import trainFoto4 from '../../images/trains_class-A4s_20080404_NYMR_040a.jpg';
 
-const trainsListOld = [trainFoto1, trainFoto2, trainFoto3];
-const trainsListCurrent = [trainFoto4, trainFoto5];
+import trainFoto5 from '../../images/Shinkansen_type_0_Hikari_19890506a.jpg';
+import trainFoto6 from '../../images/Gare_de_Paris-Gare-de-Lyon_-_2018-05-15_-_IMG_7493.jpg';
+import trainFoto7 from '../../images/tgv-train_2719564_1280.jpg';
+
+const trainsListOld = [trainFoto1, trainFoto2, trainFoto3, trainFoto4];
+const trainsListCurrent = [trainFoto5, trainFoto6, trainFoto7];
 
 
 
@@ -47,7 +50,7 @@ const SectionPresentation = () => {
         </div>
         <div className='home-presentation__title'>
           <h2>
-            Сучасні потяги все ще не вміють літати, але забезпечують швидкий і ефективний транспорт на землі, надійно з'єднуючи віддалені місця та забезпечуючи комфорт пасажирам. Проте в майбутньому все можливо ...
+            Сучасні потяги все ще не вміють літати, але забезпечують швидкий і ефективний транспорт на землі, надійно з'єднуючи віддалені місця та забезпечуючи комфорт пасажирам. Проте можливо в майбутньому ми побачемо їх на інших планетах або навіть у космосі ...
           </h2>
         </div>
       </div>  

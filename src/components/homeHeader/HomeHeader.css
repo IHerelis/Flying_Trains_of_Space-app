@@ -1,5 +1,6 @@
 .home-header__container {
-  height: 50px;
+  /* height: 50px; */
+  min-height: 50px;
   padding: 10px 20px;
   display: flex;
   gap: 30px;
@@ -7,43 +8,13 @@
   justify-content: space-between;
 }
 
-.header-logo {
-  padding: 2.5px;
-  display: flex;
-  gap: 2px;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: all 0.3s linear;
-}
-.header-logo:hover {
-  gap: 5px;
-}
-
-.header-logo h4 {
-  color: white;
-  font-size: 24px;
-  font-style: italic;
-}
-.header-logo:hover h4 {
-  /* font-size: 26px; */
-  letter-spacing: 1px;
-}
-
-.header-logo_img {
-  width: 40px;
-  height: 40px;
-}
-
-.header-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.home-header__logo {
+  min-width: 100px;
 }
 
 .header-nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
   color: white;
@@ -53,4 +24,51 @@
 .header-nav .active {
   color: yellow;
   font-weight: 500;
+}
+.header-nav .active::after {
+  background-color: yellow;
+  transform: scale(0.9);
+}
+
+.header-nav a {
+  position: relative;
+}
+
+.header-nav a:hover {
+  transition: all .25s ease;
+  color: #17baaa;
+}
+
+.header-nav a::after {
+  background: #17baaa;
+  bottom: -3px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transition: all .25s ease;
+  width: 100%;
+}
+
+.header-nav a:hover::after {
+  transform: scale(1);
+}
+
+
+/* .header-nav__login {
+
+} */
+
+.login-btn {
+  font-style: italic;
+  padding: 2px 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all .25s ease;
+}
+
+.login-btn:hover {
+  color: #17baaa;
+  border: 1px solid #17baaa;
 }

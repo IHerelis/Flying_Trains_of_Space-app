@@ -30,8 +30,8 @@ const AstronomyPictureCart = ({item}) => {
         </p>
       </div>
       <div className='cart__body__lowland'>
-        <div onClick={showMoreItems}>
-          <ButtonMoreLess active={moreActive} className='body__lowland__btn' />
+        <div className='body__lowland__btn' onClick={showMoreItems}>
+          <ButtonMoreLess active={moreActive} />
         </div>
         <div>{item.date}</div>
       </div>

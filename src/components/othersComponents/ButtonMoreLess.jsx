@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import './ButtonMoreLess.css';
 
 
-const ButtonMoreLess = ({active, className}) => {
+const ButtonMoreLess = ({active}) => {
 
   const [isActive, setIsActive] = useState(active);
 
@@ -9,7 +10,7 @@ const ButtonMoreLess = ({active, className}) => {
   return (
     <>
       <button type='button' 
-        className={className} 
+        className='more-less-btn' 
         onClick={() => setIsActive(!isActive)}
       >
         {!isActive ? "More" : "Less"}

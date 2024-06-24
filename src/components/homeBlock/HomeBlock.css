@@ -11,7 +11,7 @@
   /* height: 50px; */
   width: 100%;
   z-index: 5;
-  opacity: 0.75;
+  opacity: 0.9;
   position: fixed;
   top: 0;
 
@@ -22,10 +22,8 @@
   flex-grow: 1;
 }
 
-footer {
+.home-block-wrapper > footer {
+  border-top: 2px solid white;
+  /* background-color: black; */
   background-color: #555;
-  font-size: 24px;
-  color: white;
-  text-align: center;
-  padding: 10px;
 }

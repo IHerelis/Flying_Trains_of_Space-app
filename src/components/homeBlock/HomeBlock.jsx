@@ -3,8 +3,10 @@ import '../StyleNull.css';
 import './HomeBlock.css';
 import { Outlet } from 'react-router-dom';
 import HomeHeader from '../homeHeader/HomeHeader';
+import HomeFooter from '../homeFooter/HomeFooter';
 import { useDispatch } from 'react-redux';
 import { oneGalaxyPhoto } from '../../thunks/galaxyPhotosThunks';
+
 
 const HomeBlock = () => {
 
@@ -23,7 +25,9 @@ const HomeBlock = () => {
       <main>
         <Outlet />
       </main>
-      <footer>Footer</footer>
+      <footer>
+        <HomeFooter />
+      </footer>
     </div>
   );
 }
